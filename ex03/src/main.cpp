@@ -1,15 +1,17 @@
 #include <iostream>
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int main(void)
 {
-    ScavTrap scavTrap("ScavTrap");
+    DiamondTrap diamondTrap("DiamondTrap");
 
-    scavTrap.attack("target");
-    scavTrap.takeDamage(10);
-    scavTrap.beRepaired(10);
-    scavTrap.guardGate();
-    scavTrap.guardGate();
+    diamondTrap.attack("target");
+    diamondTrap.takeDamage(10);
+    diamondTrap.beRepaired(10);
+    diamondTrap.guardGate();
+    diamondTrap.highFivesGuys();
+    diamondTrap.whoAmI();
     return 0;
 }
