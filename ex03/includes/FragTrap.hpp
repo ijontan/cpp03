@@ -15,4 +15,5 @@ public:
     FragTrap &operator=(const FragTrap &rhs);
     void highFivesGuys(void);
 };
+
 #endif

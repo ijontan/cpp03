@@ -4,8 +4,10 @@
 
 int main(void)
 {
+    ClapTrap clap;
     ScavTrap scavTrap("ScavTrap");
 
+    clap.attack("target");
     scavTrap.attack("target");
     scavTrap.takeDamage(10);
     scavTrap.beRepaired(10);
