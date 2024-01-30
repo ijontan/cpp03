@@ -1,6 +1,5 @@
 
-#ifndef CLAPTRAP_H
-#define CLAPTRAP_H
+#pragma once
 
 #include <string>
 
@@ -24,5 +23,3 @@ public:
     void beRepaired(unsigned int amount);
     std::string getName(void) const;
 };
-
-#endif

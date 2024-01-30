@@ -12,6 +12,11 @@ ClapTrap::ClapTrap(std::string name) : _name(name), _hitPoints(10), _energyPoint
     std::cout << "ClapTrap with name " << this->_name << " is born!" << std::endl;
 }
 
+ClapTrap::ClapTrap(std::string name, int hitPoints, int energyPoints, int attackDamage) : _name(name), _hitPoints(hitPoints), _energyPoints(energyPoints), _attackDamage(attackDamage)
+{
+    std::cout << "ClapTrap with name " << this->_name << " is born!" << std::endl;
+}
+
 ClapTrap::ClapTrap(const ClapTrap &src)
 {
     *this = src;
