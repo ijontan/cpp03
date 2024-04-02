@@ -5,7 +5,7 @@ DiamondTrap::DiamondTrap()
 {
 }
 
-DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name")
+DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name", 100, 50, 30)
 {
     this->_name = name;
     std::cout << "DiamondTrap named " << name << " is born!" << std::endl;
